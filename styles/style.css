@@ -7,75 +7,186 @@
   font-style: normal;
 }
 
+/* nav-related-styles */ 
+
+.nav{ 
+
+    display: flex; 
+    max-width: 1160; 
+    margin:auto 40px; 
+    justify-content: center; 
+    align-items: center; 
+    } 
+
+    .logo-school{ 
+        display: flex; 
+        } 
+        .anchor{ 
+        text-decoration: none; 
+        padding: 0 180px; 
+        } 
+        .home{ 
+        padding-right: 32px; 
+        color: orange; 
+        } 
+        .about{ 
+        padding-right: 32px; 
+        color: skyblue; 
+        } 
+        .facilities{ 
+        padding-right: 32px; 
+        color: rgba(5, 212, 223, 1); 
+        } 
+        .admission{ 
+        rgba(93, 88, 239, 1); 
+        } 
+        .btn-contact{ 
+        font-display: white; 
+        border: 1px solid orange; 
+        background-color: orange; 
+        padding: 10px; 
+        border-radius: 12px; 
+        } 
 
 
-/* nav-related-styles */
-.nav{
-    display: flex;
-    max-width: 1160;
-    margin:auto 40px;
-    justify-content: center;
-    align-items: center;
-    padding:;
-}
-.logo-school{
-    display: flex;
-}
-
-.anchor{
-    text-decoration: none;
-    padding: 0 180px;
-
-}
-.home{
-    padding-right: 32px;
-    color: orange;
-}
-.about{
-    padding-right: 32px;
-    color: skyblue;
-}
-.facilities{
-    padding-right: 32px;
-    color: rgba(5, 212, 223, 1);
-}
-.admission{
-    rgba(93, 88, 239, 1);
-}
-.btn-contact{
-    font-display: white;
-    border: 1px solid orange;
-    background-color: orange;
-    padding: 10px;
-    border-radius: 12px;
-}
-
-
-
-/* banner related */
-header{
-    margin: 0;
-}
-.banner-card{
- background-image: url(/assets/bg.png);  
- display: flex;
- justify-items: center;
-align-items: center;
-margin: 60px 125px 80px 125px;
-}
-
-
-/* nav related styles */
-@media screen and (max-width: 576px){
-    .nav{
-        display: block;
-        text-align: center;
-    }
-
-
-    /* banner-related-styles */
-    @media screen and (max-width: 576px) {
+        /* banner related */ 
         .banner-card{
-            flex-direction: column-reverse;
+            background-image: url(/assets/bg.png);
+            max-width: 1460px;
+            max-height: 1986px;
+        } 
+        .banner-all{
+            max-width: 1160px;
+            margin: 0 120px 0 120px;
+            display: flex;
+            justify-items: center;
+            align-items: center;
         }
-    }
+        .btn-enroll{
+            max-width: 100px;
+            border: 1px solid black;
+            padding: 10px 40px 10px 40px;
+            color: white;
+            background-color: black;
+            border-radius: 12px;
+        }
+
+        /* standard-related */
+        .standard{
+            max-width: 1160px;
+            margin: 80px 110px 80px 110px;
+            justify-items: center;
+            align-items: center;
+            padding: ;
+        }
+
+            .kinder{
+                border: 1px solid rgba(222, 238, 255, 1);
+                max-width: 365px;
+                max-height: 480px;
+                border-radius: 18px;
+                text-align: center; 
+            }
+            .elementary{
+                border: 1px solid rgba(222, 238, 255, 1);
+                max-width: 365px;
+                max-height: 480px;
+                border-radius: 18px;
+                text-align: center;
+            }
+            .middle{
+                border: 1px solid rgba(222, 238, 255, 1);
+                max-width: 365px;
+                max-height: 480px;
+                border-radius: 18px;
+                text-align: center;
+            }
+            .boxes{
+                display: flex;
+                margin-top: 80px;
+                margin-top: 80px;
+                gap: 28px;
+            }
+
+            .btn-kinder{
+                color: rgba(100, 200, 255, 1);
+                width: 100px; 
+                height: 28px; 
+                border: none; 
+                background-color: white;  
+            }
+            .btn-elementary{
+                color: rgba(240, 170, 0, 1);
+                width: 100px; 
+                height: 28px; 
+                border: none; 
+                background-color: white;
+            }
+            .btn-middle{
+                color: rgba(135, 0, 255, 1);
+                width: 100px; 
+                height: 28px; 
+                border: none; 
+                background-color: white;
+            }
+
+
+            .button{
+                margin-top: 80px;
+            }
+            .btn-left{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%; 
+                color: white;
+                background-color: orange; 
+                border: none; 
+                font-size: xx-large; 
+            }
+            .btn-right{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%; 
+                color: white;
+                background-color: orange; 
+                border: none; 
+                font-size: xx-large; 
+            }
+
+
+
+            /* nav-related-styles */
+            @media screen and (max-width: 576px) {
+                .nav{
+                    flex-direction: column;
+                }
+            }
+
+
+
+
+
+
+
+
+        /* banner-related-styles */
+        @media screen and (max-width: 576px) {
+            .banner-all{
+                flex-direction: column-reverse;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .standard, .boxes{
+                flex-direction: column;
+            }
+            .button{
+                display: none;
+            }
+        }
+
+        
+         
+
+
+
