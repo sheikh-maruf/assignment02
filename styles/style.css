@@ -52,6 +52,18 @@
 
 
 
+/* banner related */
+header{
+    margin: 0;
+}
+.banner-card{
+ background-image: url(/assets/bg.png);  
+ display: flex;
+ justify-items: center;
+align-items: center;
+margin: 60px 125px 80px 125px;
+}
+
 
 /* nav related styles */
 @media screen and (max-width: 576px){
@@ -59,12 +71,11 @@
         display: block;
         text-align: center;
     }
-}
 
-/* banner related */
-header{
-    margin: 0;
-}
-.banner-card{
- background-image: url(/assets/bg.png);   
-}
+
+    /* banner-related-styles */
+    @media screen and (max-width: 576px) {
+        .banner-card{
+            flex-direction: column-reverse;
+        }
+    }
