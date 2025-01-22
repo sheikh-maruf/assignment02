@@ -67,9 +67,9 @@
             align-items: center;
         }
         .btn-enroll{
-            max-width: 100px;
+            max-width: 190px;
             border: 1px solid black;
-            padding: 10px 40px 10px 40px;
+            padding: 10px 10px 10px 10px;
             color: white;
             background-color: black;
             border-radius: 12px;
@@ -157,10 +157,19 @@
                 font-size: xx-large; 
             }
 
+            /* stories-related */
+            .footer-title{
+                width: 500px;
+                height: 57px;
+                align-items: center;
+                justify-items: center;
+                margin-left: 180px;
+            }
 
             .footer{
-               width: 1160px;
-               height: 630px; 
+               width: 1100px;
+               height: 630px;
+               background-color: rgba(1, 172, 253, 1); 
             }
             .picture-box{
                 display: grid;
@@ -206,6 +215,60 @@
                 border-radius: 16px;
             }
 
+            .story1-date{
+                border: 1px solid rgba(60, 216, 232, 1);
+                width: 175px;
+                height: 50px;
+                border-radius: 50px;
+                margin-top: -100px;
+            }
+            .story2-date{
+                border: 1px solid rgba(149, 178, 38, 1);
+                width: 175px;
+                height: 40px;
+                color: white;
+                background-color: rgba(149, 178, 38, 1);
+                border-radius: 50px;
+                margin-top: -100px;
+            }
+            .story3-date{
+                border: 1px solid rgba(93, 88, 240, 1);
+                width: 175px;
+                height: 40px;
+                color: white;
+                background-color: rgba(93, 88, 240, 1);
+                border-radius: 50px;
+                margin-top: -100px;
+            }
+            .story4-date{
+                border: 1px solid rgba(149, 178, 38, 1);
+                width: 175px;
+                height: 40px;
+                color: white;
+                background-color: rgba(149, 178, 38, 1);
+                border-radius: 50px;
+                margin-top: -100px;
+            }
+            .story5-date{
+                border: 1px solid rgba(149, 178, 38, 1);
+                width: 175px;
+                height: 40px;
+                color: white;
+                background-color: rgba(149, 178, 38, 1);
+                border-radius: 50px;
+                margin-top: -100px;
+            }
+
+            .view-all{
+                border: 1px solid black;
+                width: 197px;
+                height: 50px;
+                color: white;
+                background-color: black;
+                border-radius: 12px;
+                margin-top: 70px;
+            }
+
 
 
 
@@ -237,6 +300,14 @@
             .button{
                 display: none;
             }
+        }
+        @media screen and (max-width: 576px) {
+            .picture-box, .story-bottom{
+                grid-template-columns: repeat(1, 1fr);
+                background-color: rgba(1, 172, 253, 1);
+                width: 100%;
+            }
+            
         }
 
         
