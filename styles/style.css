@@ -6,6 +6,10 @@
   font-weight: 400;
   font-style: normal;
 }
+.container{
+    max-width: 1470px;
+    max-height: 3035px;
+}
 
 /* nav-related-styles */ 
 
@@ -152,6 +156,56 @@
                 border: none; 
                 font-size: xx-large; 
             }
+
+
+            .footer{
+               width: 1160px;
+               height: 630px; 
+            }
+            .picture-box{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+               }
+
+               .story-bottom{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+               }
+            
+            .story-1{
+                border: 1px solid black;
+                width: 540px;
+                height: 630px;
+                border-radius: 16px;
+
+            }
+            .story-2{
+                border: 1px solid black;
+                width: 290px;
+                height: 300px;
+                border-radius: 16px;
+
+            }
+            .story-3{
+                border: 1px solid black;
+                width: 290px;
+                height: 300px;
+                border-radius: 16px;
+            }
+            .story-4{
+                border: 1px solid black;
+                width: 290px;
+                height: 300px;
+                border-radius: 16px;
+            }
+            .story-5{
+                border: 1px solid black;
+                width: 290px;
+                height: 300px;
+                border-radius: 16px;
+            }
+
 
 
 
